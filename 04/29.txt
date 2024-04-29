@@ -1,0 +1,36 @@
+
+
+torch - redes neurais
+sklearn - 
+dataloader -  serve pra manipular dados melhor
+
+# Como fazer uma rede neural: 
+
+
+class nome(nn, Module):
+    def __init__(self):
+        super(SmallNet, self).__init__()
+
+        self.C1 = nn.Conv2d(1, 8, 5, stride=2, padding=1) # Rede de CV
+        self.pool1 = torch.nn.Maxp
+
+
+        self.L1 = nn.Linear(32,32)
+        self.L1 = nn.Linear(32,32)
+
+
+    def foward(self, x):
+
+        x -- dados
+        x = nn.ReLU(True)(self.L1(x))
+        x = self.L3
+
+
+# Ex1 - Fazer a rede Neural
+
+
+# Pesquisar ReLU?
+# bias = True?
+# nn.Dropout -- Reduz Overfitting??
+# nn.BatchNormalize -- Normaliza a entrada, util pois a entrada é muito grande?
+# torch.hub.load(local, "vggll", pretrained = True) 
