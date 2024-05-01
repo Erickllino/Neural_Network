@@ -1,0 +1,13 @@
+
+
+dataloader -  server para organizar os dados para o formato utilizado nos modelos
+
+# 1:02:15
+
+Feito: 
+    - Fazer a base da rede neural MLP
+    - Fiz um rascunho de como é o treino
+
+Fazer: 
+
+    -  Organizar os dados via dataloader, para que os dados sejam jogados para o treino
