@@ -26,7 +26,7 @@ class nome(nn, Module):
         x = self.L3
 
 
-# Ex1 - Fazer a rede Neural
+# Tarefa ---> Fazer a rede Neural
 
 
 # Pesquisar ReLU?
