@@ -15,5 +15,29 @@ nn.Sequence() ? Oque é, precisa de tem o foward?
 
 nn.Flatten?
 
+https://replit.com/
 
 
+--> Eval para Dataset de teste pequeno, para 
+with torch.no_grad():
+    model.eval()
+    
+    for xb, yb in test_dl:
+        
+        
+        y_pred = model(xb.float())
+
+
+
+    
+    yf = torch.argmax(y_pred, dim=1)
+    
+    print(classification_report(yb, yf))        
+        
+
+
+Ex -->
+
+Fazer A rede Convulacionais para o MNIST
+
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
